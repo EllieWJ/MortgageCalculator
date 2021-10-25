@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDECF3"
+    tools:context=".ZFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+        android:scrollbars="none"
+        android:background="@drawable/edit_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titles"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="有关房贷的小知识"
+                android:textSize="14dp" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:text="         根据2010年的国家政策，对于购买首套房，首套房面积小于或等于90平米的首付比例应不低于房价的20%，大于90平米的首付比例应不低于房价的30%。\n
+        二套房贷款是指借款人家庭(包括借款人，配偶和未成年子女)名下已有一处房产的，贷款申请购买另一套的叫二套房贷款。2010年的国家政策以“认房不认贷”为原则，即不管首套房贷款还清没还清，再贷款买另一套应算做二套房。二套房的房贷首付比例按国家规定是不低于50%。
+
+需要注意的是，房贷政策出现了变动，“认贷不认房”，即只要还清首套房贷款的，申请第二套房贷款，可以算做首套房。房贷首付比例仍按首套的标准执行。\n
+       关于商业贷款，根据央行公告，以2019年10月8日为时间节点，
+新发放商业性个人住房贷款利率由“贷款基准利率”转换为“贷款市场报价利率(LPR)”，以最近一个月相应期限的LPR为定价基准加点形成。贷款年限在1-5年期间，由银行采取一年期或五年期LPR，若超过五年期，商贷利率由LPR（浮动值）和基点（固定值，由贷款银行与借款人协商约定，合同期限内基点数值不再变动）构成。\n
+       关于等额本息和等额本金的区别，如下：\n
+       等额本息：每月还款总额（月供总额）固定，其中本金部分逐月递增、利息部分逐月递减；\n
+       等额本金：每月还款总额递减，其中本金部分固定、利息部分逐月递减" />
+
+            <TextView
+                android:id="@+id/textViewtest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</FrameLayout>
