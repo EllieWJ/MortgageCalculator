@@ -256,8 +256,6 @@ public class SFragment extends Fragment{
 
             }
         });
-
-
         //chooseinfo5_way点击事件
         chooseinfo5_way.setOnClickListener(new View.OnClickListener() {
             @Override
